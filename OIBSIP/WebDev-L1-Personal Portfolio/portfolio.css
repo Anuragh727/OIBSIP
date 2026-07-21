@@ -1,0 +1,115 @@
+body{
+    background:fixed rgba(222, 217, 217, 0.515);
+}
+.my-portfolio{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image:linear-gradient(to right, #FFFF, #F9F9F9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+
+p{
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+}
+.about-me{
+    text-align: center;
+    margin-top: 20px;
+}
+.about-me h2{
+    text-decoration: underline;
+}
+
+.profile-image{
+    border: 5px solid #333;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-skills h2{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+}
+.my-skills ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.my-skills li{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.my-projects h2{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.my-projects project-1, .my-projects project-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-direction: row;
+    flex: 1;
+}
+.project-1{
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.project-2{
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+a{
+    color: #333;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration:none;
+    font-weight: bold;
+    color: #666;
+    font-style: italic;
+}
+.contact-section{
+    text-align: center;
+    margin-top: 20px;
+}
+.contact-section h2{
+    text-decoration: underline;
+}
+.contact-section a{
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.contact-section a:hover{
+    text-decoration: underline;
+    color: #666;
+}
