@@ -102,3 +102,11 @@ option{
     font-size: 18px;
 }
 
+.result-card p{
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    font-weight: normal;
+}
+
