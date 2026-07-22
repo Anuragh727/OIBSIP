@@ -1,2 +1,0 @@
-# OIBSIP
-OASIS INFOBYTE — SIP Task List
