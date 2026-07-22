@@ -1,21 +1,4 @@
-@media screen and (max-width: 576px) {
-    body{
-        background-color: aqua;
-    }
-    .flex-container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        width: 1200px;
-    }
 
-    .flex-item{
-        width: 400px;
-        flex-shrink: 0;
-        flex-grow: 0;
-    }
-    
-}
 body{
     background-color: #f5f5f5;
 }
