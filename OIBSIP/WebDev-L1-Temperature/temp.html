@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="shortcut icon" href="Images/temperatureconverter.png" type="image/x-icon">
+    <link rel="stylesheet" href="temp.css">
+</head>
+<body>
+    <div class="converter">
+        <p>Temperature Converter</p>
+        <div class="temp-card">
+            <label for="temperature">Enter Temperature:</label>
+            <input type="number" id="temperature" placeholder="Enter Temperature" required><br>
+            <div class="unit-selection">
+                <label for="unit">Select Unit:</label><br>
+                <select id="unit">
+                    <option value="">--Select Unit--</option>
+                    <option value="celsius">Celsius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                </select><span>&rarr;</span>
+                <label for="convert-to">Convert To:</label><br>
+                <select id="convert-to">
+                    <option value="">--Select Unit--</option>
+                    <option value="celsius" >Celsius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+            </div>
+            <div class="temp-button">
+                <button id="clear-btn">Clear</button>
+                <button id="convert-btn">Convert</button>
+            </div>
+        </div>
+        <div class="result-card">
+            <h2>Result:</h2><p id="result"></p>
+        </div>
+    </div>
+    <script src="temp.js"></script>
+</body>
+</html>
